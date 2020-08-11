@@ -1,0 +1,87 @@
+#about{
+    height: 90vh;
+    margin-top:650px;
+}
+.titleAlignCenter{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.splitSection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+   margin-right: 5%;
+}
+
+//.splitLeft {
+//    width: 68%;
+//}
+	
+.splitRight {
+    margin-left: 5%;
+	}
+
+.splitRight p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.splitRight span{
+    color:#191970;
+    font-weight: 700;
+}
+
+.splitRight span.hobby{
+    font-weight: 400;
+}
+
+@media (max-width: 1210px){
+    #about .sectionInner{
+        width: 90%;
+    }
+}
+
+@media (max-width: 970px){
+    #about{
+        margin-top: 580px;
+    }
+    .splitRight p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 876px){
+    .splitRight{
+        width: 150%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 720px){
+    #about{
+        margin-bottom: 200px;
+    }
+    .splitSection{
+        flex-direction: column-reverse;
+    }
+    .splitLeft{
+        width: 40%;
+    }
+    .splitRight{
+        width: 80%;
+    }
+}
+
+@media (max-width: 420px){
+    #about{
+        margin-bottom: 250px;
+    }
+}
+
+@media(max-width: 350px){
+    .splitRight{
+        margin-right: 10%;
+    }
+}
